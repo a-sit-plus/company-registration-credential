@@ -6,7 +6,7 @@
 [![Kotlin](https://img.shields.io/badge/kotlin-multiplatform--mobile-orange.svg?logo=kotlin)](http://kotlinlang.org)
 [![Kotlin](https://img.shields.io/badge/kotlin-2.0.20-blue.svg?logo=kotlin)](http://kotlinlang.org)
 ![Java](https://img.shields.io/badge/java-17-blue.svg?logo=OPENJDK)
-[![Maven Central](https://img.shields.io/maven-central/v/at.asitplus.wallet/companyregistration)](https://mvnrepository.com/artifact/at.asitplus.wallet/companyregistration/)
+[![Maven Central](https://img.shields.io/maven-central/v/at.asitplus.wallet/company-registration)](https://mvnrepository.com/artifact/at.asitplus.wallet/company-registration/)
 
 Data classes representing company registrations, as a SD JWT Credential, with the help
 of [VC-K](https://github.com/a-sit-plus/vck).
