@@ -11,11 +11,17 @@
 Data classes representing company registrations, as a SD JWT Credential, with the help
 of [VC-K](https://github.com/a-sit-plus/vck).
 
-Be sure to call `at.asitplus.wallet.companyregistration.Initializer.initWithVCK` first thing in your application.
+Be sure to call `at.asitplus.wallet.companyregistration.Initializer.initWithVCK()` first thing in your application.
 
 ## Changelog
 
-Release 1.0.1
+Release 1.1.0:
+
+- Update to VC-K 5.4.0
+- Set `sdJwtType` to correct value `urn:eu.europa.ec.eudi:cr:1`. Old, incorrect value `eu.europa.ec.eudi.cr.1` is available in `isoNamespace`
+
+Release 1.0.1:
+- 
 - Update to VC-K 5.2.1
 - Kotlin 2.1.0
 
