@@ -15,6 +15,11 @@ Be sure to call `at.asitplus.wallet.companyregistration.Initializer.initWithVCK(
 
 ## Changelog
 
+Release 1.1.1:
+- VC-K 5.8.0
+- Kotlin 2.2.0
+- kotlinx-datetime 0.7.1
+
 Release 1.1.0:
 
 - Update to VC-K 5.4.0
