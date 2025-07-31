@@ -3,9 +3,8 @@ package at.asitplus.wallet.companyregistration
 import at.asitplus.wallet.lib.data.vckJsonSerializer
 import io.kotest.core.spec.style.FunSpec
 import io.kotest.matchers.shouldBe
-import kotlinx.datetime.Instant
+import kotlin.time.Instant
 import kotlinx.datetime.LocalDate
-import kotlinx.serialization.encodeToString
 import kotlin.random.Random
 
 class SerializerTest : FunSpec({
