@@ -1,13 +1,13 @@
 package at.asitplus.wallet.companyregistration
 
 import at.asitplus.wallet.lib.data.vckJsonSerializer
-import io.kotest.core.spec.style.FunSpec
+import de.infix.testBalloon.framework.core.testSuite
 import io.kotest.matchers.shouldBe
 import kotlin.time.Instant
 import kotlinx.datetime.LocalDate
 import kotlin.random.Random
 
-class SerializerTest : FunSpec({
+val SerializerTest by testSuite {
 
     test("serialize credential") {
         val credential = CompanyRegistration(
@@ -79,7 +79,7 @@ class SerializerTest : FunSpec({
         parsed shouldBe credential
     }
 
-})
+}
 
 private fun randomDate() = LocalDate.fromEpochDays(Random.nextInt(0, 1024))
 
